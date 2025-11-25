@@ -46,6 +46,10 @@ make_gtkrc() {
       theme_color_dark='#009688'
       theme_color_light='#4DB6AC'
       ;;
+    -Cyan)
+      theme_color_dark='#0ab8c3'
+      theme_color_light='#0ccfd9'
+      ;;
     -Grey)
       theme_color_dark='#464646'
       theme_color_light='#DDDDDD'
@@ -85,6 +89,10 @@ make_gtkrc() {
       -Teal)
         theme_color_dark='#63a6a5'
         theme_color_light='#83b9b8'
+        ;;
+      -Cyan)
+        theme_color_dark='#0ab8c3'
+        theme_color_light='#0ccfd9'
         ;;
       -Grey)
         theme_color_dark='#3a4150'
@@ -127,6 +135,10 @@ make_gtkrc() {
         theme_color_dark='#20eed9'
         theme_color_light='#50fae9'
         ;;
+      -Cyan)
+        theme_color_dark='#0ab8c3'
+        theme_color_light='#0ccfd9'
+        ;;
       -Grey)
         theme_color_dark='#3c3f51'
         theme_color_light='#d9dae3'
@@ -167,6 +179,10 @@ make_gtkrc() {
       -Teal)
         theme_color_dark='#689d6a'
         theme_color_light='#8ec07c'
+        ;;
+      -Cyan)
+        theme_color_dark='#0ab8c3'
+        theme_color_light='#0ccfd9'
         ;;
       -Grey)
         theme_color_dark='#3c3836'
@@ -209,6 +225,10 @@ make_gtkrc() {
         theme_color_dark='#35a77c'
         theme_color_light='#83C092'
         ;;
+      -Cyan)
+        theme_color_dark='#0ab8c3'
+        theme_color_light='#0ccfd9'
+        ;;
       -Grey)
         theme_color_dark='#414b50'
         theme_color_light='#e6e2cc'
@@ -249,6 +269,10 @@ make_gtkrc() {
       -Teal)
         theme_color_dark='#179299'
         theme_color_light='#81c8be'
+        ;;
+      -Cyan)
+        theme_color_dark='#0ab8c3'
+        theme_color_light='#0ccfd9'
         ;;
       -Grey)
         theme_color_dark='#5c5f77'

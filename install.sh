@@ -30,7 +30,7 @@ fi
 SASSC_OPT="-M -t expanded"
 
 THEME_NAME=Colloid
-THEME_VARIANTS=('' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Teal' '-Grey')
+THEME_VARIANTS=('' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Teal' '-Cyan' '-Grey')
 SCHEME_VARIANTS=('' '-Nord' '-Dracula' '-Gruvbox' '-Everforest' '-Catppuccin')
 COLOR_VARIANTS=('' '-Light' '-Dark')
 SIZE_VARIANTS=('' '-Compact')
@@ -69,7 +69,7 @@ OPTIONS:
 
   -n, --name NAME         Specify theme name (Default: $THEME_NAME)
 
-  -t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|teal|grey|all] (Default: blue)
+  -t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|teal|cyan|grey|all] (Default: blue)
 
   -c, --color VARIANT     Specify color variant(s) [standard|light|dark] (Default: All variants))
 
@@ -290,8 +290,12 @@ while [[ $# -gt 0 ]]; do
             themes+=("${THEME_VARIANTS[7]}")
             shift
             ;;
-          grey)
+          cyan)
             themes+=("${THEME_VARIANTS[8]}")
+            shift
+            ;;
+          grey)
+            themes+=("${THEME_VARIANTS[9]}")
             shift
             ;;
           all)
@@ -554,6 +558,9 @@ theme_color() {
         ;;
       -Teal)
         theme_color='teal'
+        ;;
+      -Cyan)
+        theme_color='cyan'
         ;;
       -Grey)
         theme_color='grey'

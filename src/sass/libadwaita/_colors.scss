@@ -138,6 +138,7 @@ $standalone-color-oklab-dark: Max(l, 0.85) a b;
 @if $gnome_version == 'new' {
 :root {
   --accent-blue: #3584e4;
+  --accent-cyan: #0ccfd9;
   --accent-teal: #2190a4;
   --accent-green: #3a944a;
   --accent-yellow: #c88800;
